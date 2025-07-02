@@ -17,13 +17,10 @@ Goto "Elastic Block Store", click on "Lifecycle Manager" > Create a Lifecycle Po
 > Define how often you want snapshots to be taken (e.g., daily, weekly).
 > Set the time for snapshot creation.
 > Choose your preferred time zone.
-
-![image](https://github.com/user-attachments/assets/e8a42365-097e-4520-ad40-f0820e7311fb)
-
-## Configure Retention
-
 > Specify how long you want to keep the snapshots.
 > You can set a count-based or age-based retention rule.
+> 
+![image](https://github.com/user-attachments/assets/42796d3c-41cb-47f3-8d54-2d3cacceaf86)
 
 ## Add Tags to Snapshots (Optional)
 
@@ -37,6 +34,12 @@ If needed, set up cross-region copying for disaster recovery.
 ## Review And Create
 ![image](https://github.com/user-attachments/assets/d7a48720-9583-4404-be97-3da7f5a44f4b)
 
+Final results:
+Same region snapshot -
+![image](https://github.com/user-attachments/assets/2290e3ad-cbfb-4750-a8bf-d7c8b59a1eea)
+
+Cross region snapshot -
+![image](https://github.com/user-attachments/assets/b19f9cc1-198b-4bb1-9ef8-11d14e4b354d)
 
 ## Method 2: Using AWS Backup
 
