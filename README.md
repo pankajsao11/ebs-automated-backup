@@ -19,7 +19,7 @@ Goto "Elastic Block Store", click on "Lifecycle Manager" > Create a Lifecycle Po
 > Choose your preferred time zone.
 > Specify how long you want to keep the snapshots.
 > You can set a count-based or age-based retention rule.
-> 
+Note: The timezone shows UTC but we need to set as per our current timezone/time. No need to convert the time in UTC etc.
 ![image](https://github.com/user-attachments/assets/42796d3c-41cb-47f3-8d54-2d3cacceaf86)
 
 ## Add Tags to Snapshots (Optional)
